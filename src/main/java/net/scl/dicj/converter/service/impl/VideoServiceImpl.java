@@ -28,6 +28,6 @@ public class VideoServiceImpl implements VideoService {
     public void scheduleJobTest() throws Exception {
         System.out.println("Fixed Delay job test- test");
         //throw new CustomException("Custome Exception Info");
-        throw new Exception("Schedule Exception Test Success------");
+        //throw new Exception("Schedule Exception Test Success------");
     }
 }
